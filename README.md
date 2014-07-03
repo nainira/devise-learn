@@ -1,11 +1,10 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
+ Devise on rails 4.1.4
+ 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version - done
 
 * System dependencies
 
