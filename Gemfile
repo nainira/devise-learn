@@ -5,6 +5,8 @@ ruby '2.1.2'
 gem 'rails', '4.1.4'
 gem 'pg'
 
+gem 'figaro'
+
 group :development, :test do
 	gem 'rspec-rails', '2.13.1'
 	gem 'guard-rspec', '2.5.0'
