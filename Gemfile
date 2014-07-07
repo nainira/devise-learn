@@ -7,7 +7,11 @@ gem 'pg'
 gem 'devise'
 
 gem 'figaro'
-
+group :development do
+	gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'meta_request'
+end
 group :development, :test do
 	gem 'rspec-rails', '2.13.1'
 	gem 'guard-rspec', '2.5.0'
